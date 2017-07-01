@@ -6,3 +6,47 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+header {
+	position: absolute;
+	z-index: 1;
+}
+
+.circles {
+	position: relative;
+	left: 250px;
+	top: 25px;
+}
+
+.outside, .inside {
+	border: 3px solid #fff;
+	border-radius: 50%;
+}
+
+.circles .outside {
+	width: 36px;
+	height: 36px;
+}
+
+.circles .inside {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	left: 10px;
+	bottom: 26px;
+}
+
+header p {
+	position: relative;
+	left: 44px;
+	bottom: 58px;
+	color: #fff;
+}
+
+.hero-image .main-img {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+}
