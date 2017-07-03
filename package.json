@@ -1,0 +1,25 @@
+{
+  "name": "psd2html1-portfolio",
+  "version": "1.0.0",
+  "description": "Converting psd to html",
+  "main": "index.js",
+  "scripts": {
+    "test": "portfolio-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszsl/psd2html-nr1.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Lukasz Sliczner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaszsl/psd2html-nr1/issues"
+  },
+  "homepage": "https://github.com/lukaszsl/psd2html-nr1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
