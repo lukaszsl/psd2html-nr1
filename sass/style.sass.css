@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: absolute;
+	z-index: 1;
+}
+
+.circles {
+	position: relative;
+	left: 250px;
+	top: 25px;
+}
+
+.outside, .inside {
+	border: 3px solid #fff;
+	border-radius: 50%;
+}
+
+.circles .outside {
+	width: 36px;
+	height: 36px;
+}
+
+.circles .inside {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	left: 10px;
+	bottom: 26px;
+}
+
+header p {
+	position: relative;
+	left: 44px;
+	bottom: 69px;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Lobster', cursive;
+}
+
+.hero-image .main-img {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+}
+
+.hero-image .iPhone-img {
+	height: 760px;
+	position: relative;
+	left: 650px;
+	top: 100px;
+	z-index: 2;
+}
+
+.hero-text {
+	position: relative;
+	z-index: 2;
+	color: #fff;
+}
+
+.hero-text h1 {
+	display: inline-block;
+	position: relative;
+	left: 250px;
+	top: 330px;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.hero-text p {
+	display: inline-block;
+	position: relative;
+	right: 49px;
+	top: 390px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.vertically {
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+	float: left;
+	position: relative;
+	left: 20px;
+	display: flex;
+}

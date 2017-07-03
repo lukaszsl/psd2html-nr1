@@ -1,3 +1,4 @@
+// This shows a full config file!
 module.exports = function (grunt) {
 	grunt.initConfig({
 		watch: {
@@ -27,9 +28,11 @@ module.exports = function (grunt) {
 		}
 	});
 
+	// load npm tasks
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-browser-sync');
 
+	// define default task
 	grunt.registerTask('default', ['sass', 'browserSync', 'watch']);
 };
