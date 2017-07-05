@@ -3,7 +3,7 @@
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto; }
 
 .row:before,
@@ -106,12 +106,12 @@ body {
     body .hero-image .hero-text h1 {
       display: inline-block;
       position: relative;
-      left: 250px;
+      left: 150px;
       top: 330px; }
     body .hero-image .hero-text p {
       display: inline-block;
       position: relative;
-      right: 49px;
+      right: 149px;
       top: 390px;
       font-family: "Open Sans", sans-serif;
       font-weight: 300;
@@ -136,6 +136,12 @@ body {
   body section.welcome div.col-6 {
     float: left; }
     body section.welcome div.col-6 p {
-      padding: 20px; }
+      padding: 5px 0; }
+  body section.welcome div.col-left {
+    padding-right: 15px; }
+  body section.welcome div.col-right {
+    padding-left: 15px;
+    position: relative;
+    top: 120px; }
 
 /*# sourceMappingURL=style.css.map */
