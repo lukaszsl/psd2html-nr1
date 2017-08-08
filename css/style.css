@@ -147,7 +147,9 @@ body {
     position: relative;
     top: 120px; }
   body .box-grid {
-    width: 1600px; }
+    max-width: 1600px; }
+    body .box-grid .row {
+      margin-left: 300px; }
     body .box-grid div.col-3, body .box-grid div.col-6 {
       height: 267px; }
     body .box-grid .box-pink {
@@ -156,16 +158,21 @@ body {
       background-color: #615f7d; }
     body .box-grid .box-small {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/our_clients_box.png");
-      background-size: auto auto; }
+      background-size: cover;
+      background-position: center; }
     body .box-grid .box-violet {
-      width: 285px;
+      /*width: 285px */
       background-color: #bd8cbf; }
     body .box-grid .box-large {
-      background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png"); }
+      background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png");
+      background-size: cover;
+      background-position: center; }
     body .box-grid .box-green {
       background-color: #82ca9c; }
     body .box-grid .box-extra {
-      width: 285px;
-      background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png"); }
+      /*width: 285px */
+      background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png");
+      background-size: cover;
+      background-position: center; }
 
 /*# sourceMappingURL=style.css.map */
