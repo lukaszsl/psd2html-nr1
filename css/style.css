@@ -150,6 +150,18 @@ body {
     max-width: 1600px; }
     body .box-grid .row {
       margin-left: 270px; }
+      body .box-grid .row h2, body .box-grid .row p, body .box-grid .row a {
+        color: #fff;
+        padding: 0 25px; }
+      body .box-grid .row h2 {
+        font-weight: 100; }
+      body .box-grid .row p {
+        margin-bottom: 40px; }
+      body .box-grid .row a {
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+        font-weight: bold; }
     body .box-grid div.col-3, body .box-grid div.col-6 {
       height: 200px; }
     body .box-grid .box-pink {
