@@ -51,7 +51,7 @@
 .col-12 {
   width: 100%; }
 
-h1, h2, p {
+h1, h2, h3, p {
   font-family: "Open Sans", sans-serif; }
 
 h1 {
@@ -59,7 +59,15 @@ h1 {
   font-weight: 300; }
 
 p {
-  font-size: 10px; }
+  font-size: 10px;
+  color: #999; }
+
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff; }
 
 body {
   margin: 0;
@@ -118,7 +126,8 @@ body {
       top: 390px;
       font-family: "Open Sans", sans-serif;
       font-weight: 300;
-      line-height: 20px; }
+      line-height: 20px;
+      color: #fff; }
     body .hero-image .hero-text .vertically {
       transform: rotate(270deg);
       transform-origin: left top 0;
@@ -157,11 +166,6 @@ body {
         font-weight: 100; }
       body .box-grid .row p {
         margin-bottom: 40px; }
-      body .box-grid .row a {
-        text-decoration: none;
-        font-family: "Open Sans", sans-serif;
-        font-size: 10px;
-        font-weight: bold; }
     body .box-grid div.col-3, body .box-grid div.col-6 {
       height: 200px; }
     body .box-grid .box-pink {
@@ -183,5 +187,18 @@ body {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png");
       background-size: cover;
       background-position: center; }
+  body .text-column h2 {
+    padding-top: 30px; }
+  body .text-column p {
+    padding: 0 20px 10px 0; }
+  body .full-image img {
+    width: 100vw; }
+  body .full-image div {
+    position: relative;
+    bottom: 390px; }
+    body .full-image div h1 {
+      color: #fff; }
+    body .full-image div p {
+      padding-right: 550px; }
 
 /*# sourceMappingURL=style.css.map */

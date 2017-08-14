@@ -42,7 +42,7 @@ $main-font: 'Open Sans', sans-serif
 .col-12 
 	width: 100%
 
-h1, h2, p
+h1, h2, h3, p
 	font-family: $main-font	
 
 h1
@@ -51,6 +51,14 @@ h1
 
 p
 	font-size: 10px
+	color: #999
+
+a
+	text-decoration: none
+	font-family: $main-font	
+	font-size: 10px
+	font-weight: bold
+	color: #fff
 
 body
 	margin: 0
@@ -122,6 +130,7 @@ body
 				font-family: $main-font
 				font-weight: 300
 				line-height: 20px
+				color: #fff
 
 			.vertically 
 				transform: rotate(270deg)
@@ -170,12 +179,6 @@ body
 			p
 				margin-bottom: 40px
 
-			a
-				text-decoration: none
-				font-family: $main-font	
-				font-size: 10px
-				font-weight: bold
-
 		div.col-3, div.col-6
 			height: 200px
 
@@ -198,4 +201,20 @@ body
 			background-image: url('https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png')
 			background-size: cover
 			background-position: center
+	.text-column
+		h2
+			padding-top: 30px
+		p
+			padding: 0 20px 10px 0
+
+	.full-image
+		img
+			width: 100vw 
+		div
+			position: relative
+			bottom: 390px
+			h1
+				color: #fff
+			p
+				padding-right: 550px
 	
