@@ -191,14 +191,25 @@ body {
     padding-top: 30px; }
   body .text-column p {
     padding: 0 20px 10px 0; }
-  body .full-image img {
-    width: 100vw; }
-  body .full-image div {
-    position: relative;
-    bottom: 390px; }
-    body .full-image div h1 {
+  body .full-image {
+    max-height: 840px; }
+    body .full-image img {
+      width: 100vw; }
+    body .full-image div {
+      position: relative;
+      bottom: 390px; }
+      body .full-image div h1 {
+        color: #fff; }
+      body .full-image div p {
+        padding-right: 550px; }
+  body .colour {
+    height: 400px;
+    background-color: #99cc99; }
+    body .colour h2, body .colour h3, body .colour p {
       color: #fff; }
-    body .full-image div p {
-      padding-right: 550px; }
+    body .colour h2 {
+      padding-top: 90px; }
+    body .colour p {
+      padding: 0 20px 10px 0; }
 
 /*# sourceMappingURL=style.css.map */
