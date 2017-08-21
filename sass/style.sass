@@ -1,4 +1,5 @@
 $main-font: 'Open Sans', sans-serif
+$buttons-font: 'Roboto', sans-serif
 
 * 
 	box-sizing: border-box
@@ -48,6 +49,9 @@ h1, h2, h3, p
 h1
 	font-size: 45px
 	font-weight: 300
+
+h2
+	font-size: 26px
 
 p
 	font-size: 10px
@@ -234,12 +238,36 @@ body
 		background-color: #f6f7fa
 
 		.label-purple
-			width: 100px
-			height: 50px
+			width: 75px
+			height: 25px
 			background-color: #e1e1e1
-			border-radius: 10px
-			font-family: $main-font
+			border-radius: 7px
+			font-family: $buttons-font
 			font-weight: 700
-			font-size: 12px
+			font-size: 10px
 			color: #f6f7fa
+			display: flex
+			justify-content: center
+			align-items: center
+
+		.right
+			width: 120px
+
+		button
+			width: 140px
+			height: 50px
+			background-color: #99cc99
+			color: #fff
+			font: bold 14px $buttons-font
+			border: none
+			border-radius: 5px
+			margin-top: 20px
+
+		.icons
+			margin: 10px
+			font-size: 25px
+
+			.fa
+				padding-right: 5px
+				color: #ccc
 	
