@@ -190,12 +190,13 @@ body {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png");
       background-size: cover;
       background-position: center; }
-  body .text-column h2 {
-    padding-top: 30px; }
-  body .text-column p {
-    padding: 0 20px 10px 0; }
+  body .text-column {
+    height: 350px;
+    margin-top: 85px; }
+    body .text-column p {
+      padding: 0 20px 10px 0; }
   body .full-image {
-    max-height: 840px; }
+    max-height: 698px; }
     body .full-image img {
       width: 100vw; }
     body .full-image div {
@@ -215,7 +216,7 @@ body {
     body .colour p {
       padding: 0 20px 10px 0; }
   body .buying {
-    height: 450px;
+    height: 500px;
     background-color: #f6f7fa; }
     body .buying .label-purple {
       width: 75px;
@@ -246,5 +247,17 @@ body {
       body .buying .icons .fa {
         padding-right: 5px;
         color: #ccc; }
+    body .buying .right-box:hover, body .buying .left-box:hover {
+      background-color: #fff;
+      box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1); }
+      body .buying .right-box:hover .label-purple.right, body .buying .right-box:hover .label-purple.left, body .buying .left-box:hover .label-purple.right, body .buying .left-box:hover .label-purple.left {
+        background-color: #c9c; }
+      body .buying .right-box:hover button, body .buying .left-box:hover button {
+        cursor: pointer; }
+    body .buying .left-box, body .buying .right-box {
+      padding: 40px;
+      margin-top: 60px; }
+      body .buying .left-box p, body .buying .right-box p {
+        padding-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
