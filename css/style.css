@@ -159,7 +159,8 @@ body {
     position: relative;
     top: 120px; }
   body .box-grid {
-    max-width: 1600px; }
+    max-width: 1600px;
+    margin-top: 40px; }
     body .box-grid .row {
       margin-left: 270px; }
       body .box-grid .row h2, body .box-grid .row p, body .box-grid .row a {
