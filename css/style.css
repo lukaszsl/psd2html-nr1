@@ -51,6 +51,16 @@
 .col-12 {
   width: 100%; }
 
+.btn-green {
+  width: 140px;
+  height: 50px;
+  background-color: #99cc99;
+  color: #fff;
+  font: bold 14px "Roboto", sans-serif;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px; }
+
 h1, h2, h3, p {
   font-family: "Open Sans", sans-serif; }
 
@@ -218,7 +228,16 @@ body {
       padding: 0 20px 10px 0; }
   body .buying {
     height: 500px;
-    background-color: #f6f7fa; }
+    background-color: #f6f7fa;
+    /*button
+     * width: 140px
+     * height: 50px
+     * background-color: #99cc99
+     * color: #fff
+     * font: bold 14px $buttons-font
+     * border: none
+     * border-radius: 5px
+     * margin-top: 20px */ }
     body .buying .label-purple {
       width: 75px;
       height: 25px;
@@ -233,15 +252,6 @@ body {
       align-items: center; }
     body .buying .right {
       width: 120px; }
-    body .buying button {
-      width: 140px;
-      height: 50px;
-      background-color: #99cc99;
-      color: #fff;
-      font: bold 14px "Roboto", sans-serif;
-      border: none;
-      border-radius: 5px;
-      margin-top: 20px; }
     body .buying .icons {
       margin: 10px;
       font-size: 25px; }
@@ -260,5 +270,29 @@ body {
       margin-top: 60px; }
       body .buying .left-box p, body .buying .right-box p {
         padding-right: 20px; }
+  body .footer {
+    height: 500px;
+    background-color: #192431;
+    color: #fff; }
+    body .footer h3 {
+      font-size: 10px; }
+    body .footer p {
+      color: #fff; }
+    body .footer ol {
+      list-style: none;
+      padding: 0; }
+      body .footer ol li {
+        font-family: "Open Sans", sans-serif;
+        font-size: 8px; }
+    body .footer div.row div:first-child {
+      padding-right: 70px; }
+    body .footer form p {
+      color: #53647a; }
+    body .footer form button {
+      width: 30px;
+      height: 30px; }
+    body .footer form input {
+      width: 300px;
+      height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
