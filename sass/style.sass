@@ -320,16 +320,33 @@ body
 				font-size: 8px
 
 		div.row
-			div:first-child
+			div.col-6
+				margin-top: 100px
+			div.col-6:first-child
 				padding-right: 70px
+				h3
+					margin-bottom: 27px
+				p
+					margin-bottom: 35px
+			div.col-6:nth-child(2)
+				padding-left: 115px
 
 		form
+			input, button
+				border-radius: 2px
 			p
 				color: #53647a
+				padding-right: 60px
 			button
 				width: 30px
 				height: 30px
+				position: relative
+				left: -6px
+				border-top-left-radius: 0
+				border-bottom-left-radius: 0
+
 			input
 				width: 300px
 				height: 30px
+				border-style: hidden
 	
