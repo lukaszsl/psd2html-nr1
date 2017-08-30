@@ -73,7 +73,8 @@ h2 {
 
 p {
   font-size: 10px;
-  color: #999; }
+  color: #999;
+  line-height: 15px; }
 
 a {
   text-decoration: none;
@@ -195,6 +196,8 @@ body {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png");
       background-size: cover;
       background-position: center; }
+      body .box-grid .box-large p {
+        margin-bottom: 55px; }
     body .box-grid .box-green {
       background-color: #82ca9c; }
     body .box-grid .box-extra {
@@ -223,7 +226,7 @@ body {
     body .colour h2, body .colour h3, body .colour p {
       color: #fff; }
     body .colour h2 {
-      padding-top: 90px; }
+      padding-top: 70px; }
     body .colour p {
       padding: 0 20px 10px 0; }
   body .buying {
@@ -275,7 +278,7 @@ body {
     background-color: #192431;
     color: #fff; }
     body .footer h3 {
-      font-size: 10px; }
+      font-size: 11px; }
     body .footer p {
       color: #fff; }
     body .footer ol {
@@ -283,7 +286,8 @@ body {
       padding: 0; }
       body .footer ol li {
         font-family: "Open Sans", sans-serif;
-        font-size: 8px; }
+        font-size: 8px;
+        line-height: 15px; }
     body .footer div.row div.col-6 {
       margin-top: 100px; }
     body .footer div.row div.col-6:first-child {
