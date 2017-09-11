@@ -18,31 +18,6 @@ $buttons-font: 'Roboto', sans-serif
 [class*='col-']
 	float: left
 
-.col-1 
-	width: 8.33%
-.col-2 
-	width: 16.66%
-.col-3 
-	width: 25%
-.col-4 
-	width: 33.33%
-.col-5 
-	width: 41.66%
-.col-6 
-	width: 50%
-.col-7 
-	width: 58.33%
-.col-8 
-	width: 66.66%
-.col-9 
-	width: 75%
-.col-10 
-	width: 83.33%
-.col-11 
-	width: 91.66%
-.col-12 
-	width: 100%
-
 .btn-green
 	width: 140px
 	height: 50px
@@ -84,9 +59,9 @@ body
 		z-index: 1
 			
 		.circles 
-			position: relative
-			left: 250px
-			top: 40px
+			position: absolute
+			left: 18vw
+			top: 5vh
 
 			.outside, .inside
 				border: 3px solid #fff
@@ -113,7 +88,7 @@ body
 
 	.hero-image 
 		.main-img 
-			width: 100vw
+			max-width: 100vw
 			height: 100vh
 			position: absolute
 			top: 0
@@ -168,7 +143,7 @@ body
 				color: #a4c4ce
 
 	.welcome
-		div.col-6
+		div.col-l-6
 			float: left
 
 			p
@@ -195,7 +170,7 @@ body
 			p
 				margin-bottom: 40px
 
-		div.col-3, div.col-6
+		div.col-l-3, div.col-l-6
 			height: 200px
 
 		.box-pink
@@ -341,15 +316,15 @@ body
 				line-height: 15px
 
 		div.row
-			div.col-6
+			div.col-l-6
 				margin-top: 100px
-			div.col-6:first-child
+			div.col-l-6:first-child
 				padding-right: 70px
 				h3
 					margin-bottom: 27px
 				p
 					margin-bottom: 35px
-			div.col-6:nth-child(2)
+			div.col-l-6:nth-child(2)
 				padding-left: 115px
 
 		form
@@ -374,4 +349,81 @@ body
 				border-style: hidden
 				font-size: 15px
 				padding-right: 4px
-	
+
+@media(max-width: 767px)
+	.col-s-1 
+		width: 8.33%
+	.col-s-2 
+		width: 16.66%
+	.col-s-3 
+		width: 25%
+	.col-s-4 
+		width: 33.33%
+	.col-s-5 
+		width: 41.66%
+	.col-s-6 
+		width: 50%
+	.col-s-7 
+		width: 58.33%
+	.col-s-8 
+		width: 66.66%
+	.col-s-9 
+		width: 75%
+	.col-s-10 
+		width: 83.33%
+	.col-s-11 
+		width: 91.66%
+	.col-s-12 
+		width: 100%
+
+@media(min-width: 768px) and (max-width: 1199px)
+	.col-m-1 
+		width: 8.33%
+	.col-m-2 
+		width: 16.66%
+	.col-m-3 
+		width: 25%
+	.col-m-4 
+		width: 33.33%
+	.col-m-5 
+		width: 41.66%
+	.col-m-6 
+		width: 50%
+	.col-m-7 
+		width: 58.33%
+	.col-m-8 
+		width: 66.66%
+	.col-m-9 
+		width: 75%
+	.col-m-10 
+		width: 83.33%
+	.col-m-11 
+		width: 91.66%
+	.col-m-12 
+		width: 100%
+
+@media(min-width: 1200px)
+	.col-l-1 
+		width: 8.33%
+	.col-l-2 
+		width: 16.66%
+	.col-l-3 
+		width: 25%
+	.col-l-4 
+		width: 33.33%
+	.col-l-5 
+		width: 41.66%
+	.col-l-6 
+		width: 50%
+	.col-l-7 
+		width: 58.33%
+	.col-l-8 
+		width: 66.66%
+	.col-l-9 
+		width: 75%
+	.col-l-10 
+		width: 83.33%
+	.col-l-11 
+		width: 91.66%
+	.col-l-12 
+		width: 100%
