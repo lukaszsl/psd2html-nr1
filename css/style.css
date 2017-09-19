@@ -3,7 +3,7 @@
 
 .container {
   width: 100%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .row:before,
@@ -15,7 +15,7 @@
 [class*='col-'] {
   float: left; }
 
-.btn-green {
+.btn-main {
   width: 140px;
   height: 50px;
   background-color: #99cc99;
@@ -25,79 +25,77 @@
   border-radius: 5px;
   margin-top: 20px; }
 
-h1, h2, h3, p {
-  font-family: "Open Sans", sans-serif; }
-
-h1 {
-  font-size: 45px;
-  font-weight: 300; }
-
-h2 {
-  font-size: 26px; }
-
-p {
-  font-size: 10px;
-  color: #999;
-  line-height: 15px; }
-
-a {
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  color: #fff; }
-
 body {
   margin: 0;
-  padding: 0; }
-  body header {
+  padding: 0;
+  font-family: "Open Sans", sans-serif; }
+  body h1 {
+    font-size: 45px;
+    font-weight: 300; }
+  body h2 {
+    font-size: 26px; }
+  body p {
+    font-size: 10px;
+    color: #999;
+    line-height: 15px; }
+  body a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff; }
+
+.hero {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url("images/Image.png"); }
+  .hero header {
     position: absolute;
     z-index: 1; }
-    body header .circles {
+    .hero header .circles {
       position: absolute;
       left: 18vw;
       top: 5vh; }
-      body header .circles .outside, body header .circles .inside {
+      .hero header .circles .outside, .hero header .circles .inside {
         border: 3px solid #fff;
         border-radius: 50%; }
-      body header .circles .outside {
+      .hero header .circles .outside {
         width: 36px;
         height: 36px; }
-      body header .circles .inside {
+      .hero header .circles .inside {
         width: 16px;
         height: 16px;
         position: relative;
         left: 10px;
         bottom: 26px; }
-    body header p {
+    .hero header p {
       position: relative;
       left: 44px;
       bottom: 65px;
       color: #fff;
       font-family: "Lobster", cursive;
       font-size: 22px; }
-  body .hero-image .main-img {
+  .hero .hero-image .main-img {
     max-width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     z-index: 0; }
-  body .hero-image .iPhone-img {
+  .hero .hero-image .iPhone-img {
     height: 760px;
     position: relative;
     left: 650px;
     top: 100px;
     z-index: 2; }
-  body .hero-image .hero-text {
+  .hero .hero-image .hero-text {
     position: relative;
     z-index: 2;
     color: #fff; }
-    body .hero-image .hero-text h1 {
+    .hero .hero-image .hero-text h1 {
       display: inline-block;
       position: relative;
       left: 150px;
       top: 330px; }
-    body .hero-image .hero-text p {
+    .hero .hero-image .hero-text p {
       display: inline-block;
       position: relative;
       right: 149px;
@@ -106,7 +104,7 @@ body {
       font-weight: 300;
       line-height: 20px;
       color: #fff; }
-    body .hero-image .hero-text .vertically {
+    .hero .hero-image .hero-text .vertically {
       transform: rotate(270deg);
       transform-origin: left top 0;
       float: left;
@@ -114,95 +112,95 @@ body {
       left: 20px;
       display: flex;
       text-transform: uppercase; }
-    body .hero-image .hero-text .link {
+    .hero .hero-image .hero-text .link {
       position: relative;
       left: 50px;
       top: 435px; }
-    body .hero-image .hero-text .perfect {
+    .hero .hero-image .hero-text .perfect {
       position: relative;
       top: 485px;
       left: 89px;
       color: #a4c4ce; }
-  body .welcome div.col-l-6 {
+  .hero .welcome div.col-l-6 {
     float: left; }
-    body .welcome div.col-l-6 p {
+    .hero .welcome div.col-l-6 p {
       padding: 5px 0; }
-  body .welcome div.col-left {
+  .hero .welcome div.col-left {
     padding-right: 15px; }
-  body .welcome div.col-right {
+  .hero .welcome div.col-right {
     padding-left: 15px;
     position: relative;
     top: 120px; }
-  body .box-grid {
+  .hero .box-grid {
     max-width: 1600px;
     margin-top: 40px; }
-    body .box-grid .row {
+    .hero .box-grid .row {
       margin-left: 270px; }
-      body .box-grid .row h2, body .box-grid .row p, body .box-grid .row a {
+      .hero .box-grid .row h2, .hero .box-grid .row p, .hero .box-grid .row a {
         color: #fff;
         padding: 0 25px; }
-      body .box-grid .row h2 {
+      .hero .box-grid .row h2 {
         font-weight: 100; }
-      body .box-grid .row p {
+      .hero .box-grid .row p {
         margin-bottom: 40px; }
-    body .box-grid div.col-l-3, body .box-grid div.col-l-6 {
+    .hero .box-grid div.col-l-3, .hero .box-grid div.col-l-6 {
       height: 200px; }
-    body .box-grid .box-pink {
+    .hero .box-grid .box-pink {
       background-color: #f5989d; }
-    body .box-grid .box-purple {
+    .hero .box-grid .box-purple {
       background-color: #615f7d; }
-    body .box-grid .box-small {
+    .hero .box-grid .box-small {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/our_clients_box.png");
       background-size: cover; }
-    body .box-grid .box-violet {
+    .hero .box-grid .box-violet {
       background-color: #bd8cbf; }
-    body .box-grid .box-large {
+    .hero .box-grid .box-large {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png");
       background-size: cover;
       background-position: center; }
-      body .box-grid .box-large p {
+      .hero .box-grid .box-large p {
         margin-bottom: 55px; }
-    body .box-grid .box-green {
+    .hero .box-grid .box-green {
       background-color: #82ca9c; }
-    body .box-grid .box-extra {
+    .hero .box-grid .box-extra {
       background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png");
       background-size: cover;
       background-position: center; }
-    body .box-grid .box-pink:hover a,
-    body .box-grid .box-purple:hover a,
-    body .box-grid .box-small:hover a,
-    body .box-grid .box-violet:hover a,
-    body .box-grid .box-large:hover a,
-    body .box-grid .box-green:hover a,
-    body .box-grid .box-extra:hover a {
+    .hero .box-grid .box-pink:hover a,
+    .hero .box-grid .box-purple:hover a,
+    .hero .box-grid .box-small:hover a,
+    .hero .box-grid .box-violet:hover a,
+    .hero .box-grid .box-large:hover a,
+    .hero .box-grid .box-green:hover a,
+    .hero .box-grid .box-extra:hover a {
       font-size: 13px;
       transition: 0.3s; }
-  body .text-column {
+  .hero .text-column {
     height: 350px;
     margin-top: 85px; }
-    body .text-column p {
+    .hero .text-column p {
       padding: 0 20px 10px 0; }
-  body .full-image {
+  .hero .full-image {
     max-height: 698px; }
-    body .full-image img {
+    .hero .full-image img {
       width: 100vw; }
-    body .full-image div {
+    .hero .full-image div {
       position: relative;
       bottom: 390px; }
-      body .full-image div h1 {
+      .hero .full-image div h1 {
         color: #fff; }
-      body .full-image div p {
+      .hero .full-image div p {
         padding-right: 550px; }
-  body .colour {
+  .hero .colour {
     height: 400px;
     background-color: #99cc99; }
-    body .colour h2, body .colour h3, body .colour p {
+    .hero .colour h2, .hero .colour h3, .hero .colour p {
       color: #fff; }
-    body .colour h2 {
+    .hero .colour h2 {
       padding-top: 70px; }
-    body .colour p {
+    .hero .colour p {
       padding: 0 20px 10px 0; }
-  body .buying {
+  .hero .buying {
     height: 500px;
     background-color: #f6f7fa;
     /*button
@@ -214,7 +212,7 @@ body {
      * border: none
      * border-radius: 5px
      * margin-top: 20px */ }
-    body .buying .label-purple {
+    .hero .buying .label-purple {
       width: 75px;
       height: 25px;
       background-color: #e1e1e1;
@@ -226,60 +224,60 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-    body .buying .right {
+    .hero .buying .right {
       width: 120px; }
-    body .buying .icons {
+    .hero .buying .icons {
       margin: 10px;
       font-size: 25px; }
-      body .buying .icons .fa {
+      .hero .buying .icons .fa {
         padding-right: 5px;
         color: #ccc; }
-    body .buying .left-box, body .buying .right-box {
+    .hero .buying .left-box, .hero .buying .right-box {
       padding: 40px;
       margin-top: 60px; }
-      body .buying .left-box p, body .buying .right-box p {
+      .hero .buying .left-box p, .hero .buying .right-box p {
         padding-right: 20px; }
-    body .buying .right-box:hover, body .buying .left-box:hover {
+    .hero .buying .right-box:hover, .hero .buying .left-box:hover {
       background-color: #fff;
       box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1); }
-      body .buying .right-box:hover .label-purple.right, body .buying .right-box:hover .label-purple.left, body .buying .left-box:hover .label-purple.right, body .buying .left-box:hover .label-purple.left {
+      .hero .buying .right-box:hover .label-purple.right, .hero .buying .right-box:hover .label-purple.left, .hero .buying .left-box:hover .label-purple.right, .hero .buying .left-box:hover .label-purple.left {
         background-color: #c9c; }
-      body .buying .right-box:hover button, body .buying .left-box:hover button {
+      .hero .buying .right-box:hover button, .hero .buying .left-box:hover button {
         cursor: pointer; }
-    body .buying .left-box, body .buying .right-box,
-    body .buying .right-box:hover, body .buying .left-box:hover {
+    .hero .buying .left-box, .hero .buying .right-box,
+    .hero .buying .right-box:hover, .hero .buying .left-box:hover {
       transition: all 0.8s; }
-  body .footer {
+  .hero .footer {
     height: 500px;
     background-color: #192431;
     color: #fff; }
-    body .footer h3 {
+    .hero .footer h3 {
       font-size: 11px; }
-    body .footer p {
+    .hero .footer p {
       color: #fff; }
-    body .footer ol {
+    .hero .footer ol {
       list-style: none;
       padding: 0; }
-      body .footer ol li {
+      .hero .footer ol li {
         font-family: "Open Sans", sans-serif;
         font-size: 8px;
         line-height: 15px; }
-    body .footer div.row div.col-l-6 {
+    .hero .footer div.row div.col-l-6 {
       margin-top: 100px; }
-    body .footer div.row div.col-l-6:first-child {
+    .hero .footer div.row div.col-l-6:first-child {
       padding-right: 70px; }
-      body .footer div.row div.col-l-6:first-child h3 {
+      .hero .footer div.row div.col-l-6:first-child h3 {
         margin-bottom: 27px; }
-      body .footer div.row div.col-l-6:first-child p {
+      .hero .footer div.row div.col-l-6:first-child p {
         margin-bottom: 35px; }
-    body .footer div.row div.col-l-6:nth-child(2) {
+    .hero .footer div.row div.col-l-6:nth-child(2) {
       padding-left: 115px; }
-    body .footer form input, body .footer form button {
+    .hero .footer form input, .hero .footer form button {
       border-radius: 2px; }
-    body .footer form p {
+    .hero .footer form p {
       color: #53647a;
       padding-right: 60px; }
-    body .footer form button {
+    .hero .footer form button {
       width: 30px;
       height: 30px;
       position: relative;
@@ -288,7 +286,7 @@ body {
       cursor: pointer;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0; }
-    body .footer form input {
+    .hero .footer form input {
       width: 300px;
       height: 30px;
       border-style: hidden;
