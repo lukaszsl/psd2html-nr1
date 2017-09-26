@@ -89,11 +89,14 @@ body {
 .slogan {
   display: inline-block;
   position: relative;
-  left: 11vw;
+  left: 10vw;
   top: 40vh; }
 
 .slogan__header, .slogan__text {
   color: #fff; }
+
+.slogan__text {
+  font-size: 10px; }
 
 .iPhone {
   height: 760px;
@@ -112,11 +115,21 @@ body {
   text-transform: uppercase; }
 
 .ad__text {
-  padding-right: 4px;
-  color: #a4c4ce; }
+  color: #a4c4ce;
+  font-size: 10px;
+  padding: 6px 4px; }
 
 .welcome {
   margin-top: 50px; }
+
+.welcome__header {
+  margin-bottom: 10px; }
+
+.welcome__left {
+  padding-right: 15px; }
+
+.welcome__right {
+  margin-top: 101px; }
 
 .welcome__left, .welcome__right {
   float: left; }
@@ -127,47 +140,45 @@ body {
   line-height: 15px;
   padding: 5px 0; }
 
-/* .hero-text 
- * 	position: relative
- * 	z-index: 2
- * 	color: #fff
- *
- * 	h1 
- * 		display: inline-block
- * 		position: relative
- * 		left: 150px
- * 		top: 330px
- *
- * 	p 
- * 		display: inline-block
- * 		position: relative
- * 		right: 149px
- * 		top: 390px
- * 		font-family: $main-font
- * 		font-weight: 300
- * 		line-height: 20px
- * 		color: #fff
- *
- * 	.vertically 
- * 		transform: rotate(270deg)
- * 		transform-origin: left top 0
- * 		float: left
- * 		position: relative
- * 		left: 20px
- * 		display: flex
- * 		text-transform: uppercase
- *
- * 		.link
- * 			position: relative
- * 			left: 50px
- * 			top: 435px
- *
- * 		.perfect
- * 			position: relative
- * 			top: 485px
- * 			left: 89px
- * 			color: #a4c4ce
- *
+.box-grid {
+  max-width: 1600px;
+  margin-top: 50px;
+  margin-left: 270px; }
+
+.box-grid__box-one {
+  background-color: #f5989d; }
+
+.box-grid__box-two {
+  background-color: #615f7d; }
+
+.box-grid__box-three {
+  background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/our_clients_box.png");
+  background-size: cover; }
+
+.box-grid__box-four {
+  background-color: #bd8cbf; }
+
+.box-grid__box-five {
+  background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png");
+  background-size: cover;
+  background-position: center; }
+
+.box-five__paragraph {
+  margin-bottom: 55px; }
+
+.box-grid__box-six {
+  background-color: #82ca9c; }
+
+.box-grid__box-seven {
+  background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png");
+  background-size: cover;
+  background-position: center; }
+
+.box-grid__header, .box-grid__paragraph {
+  color: #fff;
+  padding: 0 25px; }
+
+/*
  * .welcome
  * 	div.col-l-6
  * 		float: left
