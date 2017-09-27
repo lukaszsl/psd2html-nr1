@@ -62,7 +62,8 @@ body {
   height: 100%;
   display: inline-block;
   text-align: center; }
-  .logo__circle .circle__outside, .logo__circle .circle__inside {
+  .logo__circle .circle__outside,
+  .logo__circle .circle__inside {
     border: 3px solid #fff;
     border-radius: 50%; }
   .logo__circle .circle__outside {
@@ -92,7 +93,8 @@ body {
   left: 10vw;
   top: 40vh; }
 
-.slogan__header, .slogan__text {
+.slogan__header,
+.slogan__text {
   color: #fff; }
 
 .slogan__text {
@@ -131,7 +133,8 @@ body {
 .welcome__right {
   margin-top: 101px; }
 
-.welcome__left, .welcome__right {
+.welcome__left,
+.welcome__right {
   float: left; }
 
 .welcome__paragraph {
@@ -144,6 +147,24 @@ body {
   max-width: 1600px;
   margin-top: 50px;
   margin-left: 270px; }
+
+[class*='box-grid__box-'] {
+  height: 200px; }
+
+.box-grid__header,
+.box-grid__paragraph,
+.box-grid__link {
+  color: #fff;
+  padding: 0 25px; }
+
+.box-grid__header {
+  font-weight: 100;
+  margin-top: 40px;
+  margin-bottom: 10px; }
+
+.box-grid__paragraph {
+  font-size: 10px;
+  margin-bottom: 40px; }
 
 .box-grid__box-one {
   background-color: #f5989d; }
@@ -174,24 +195,17 @@ body {
   background-size: cover;
   background-position: center; }
 
-.box-grid__header, .box-grid__paragraph {
-  color: #fff;
-  padding: 0 25px; }
+.box-grid__box-one:hover .box-grid__link,
+.box-grid__box-two:hover .box-grid__link,
+.box-grid__box-three:hover .box-grid__link,
+.box-grid__box-four:hover .box-grid__link,
+.box-grid__box-five:hover .box-grid__link,
+.box-grid__box-six:hover .box-grid__link,
+.box-grid__box-seven:hover .box-grid__link {
+  font-size: 13px;
+  transition: 0.3s; }
 
 /*
- * .welcome
- * 	div.col-l-6
- * 		float: left
- *
- * 		p
- * 			padding: 5px 0
- * 	div.col-left
- * 		padding-right: 15px
- * 	div.col-right
- * 		padding-left: 15px
- * 		position: relative
- * 		top: 120px
- *
  * .box-grid
  * 	max-width: 1600px
  * 	margin-top: 40px

@@ -76,7 +76,8 @@ body
 	display: inline-block
 	text-align: center
 
-	.circle__outside, .circle__inside
+	.circle__outside, 
+	.circle__inside
 		border: 3px solid $white
 		border-radius: 50%
 
@@ -108,7 +109,8 @@ body
 	left: 10vw
 	top: 40vh
 
-.slogan__header, .slogan__text
+.slogan__header, 
+.slogan__text
 	color: $white
 
 .slogan__text
@@ -148,7 +150,8 @@ body
 .welcome__right
 	margin-top: 101px
 
-.welcome__left, .welcome__right
+.welcome__left, 
+.welcome__right
 	float: left
 
 .welcome__paragraph
@@ -163,6 +166,24 @@ body
 	max-width: 1600px
 	margin-top: 50px
 	margin-left: 270px
+
+[class*='box-grid__box-']
+	height: 200px
+
+.box-grid__header, 
+.box-grid__paragraph, 
+.box-grid__link
+	color: $white
+	padding: 0 25px
+
+.box-grid__header
+	font-weight: 100
+	margin-top: 40px
+	margin-bottom: 10px
+	
+.box-grid__paragraph
+	font-size: 10px
+	margin-bottom: 40px
 
 .box-grid__box-one
 	background-color: #f5989d
@@ -193,26 +214,21 @@ body
 	background-size: cover
 	background-position: center
 
-.box-grid__header, .box-grid__paragraph
-	color: $white
-	padding: 0 25px
-	
+.box-grid__box-one, 
+.box-grid__box-two, 
+.box-grid__box-three, 
+.box-grid__box-four, 
+.box-grid__box-five, 
+.box-grid__box-six, 
+.box-grid__box-seven
+	&:hover
+		.box-grid__link
+			font-size: 13px
+			transition: .3s
+
 
 // don´t change above !!!
 /*
-
-	.welcome
-		div.col-l-6
-			float: left
-
-			p
-				padding: 5px 0
-		div.col-left
-			padding-right: 15px
-		div.col-right
-			padding-left: 15px
-			position: relative
-			top: 120px
 
 	.box-grid
 		max-width: 1600px
