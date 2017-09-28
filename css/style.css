@@ -62,19 +62,22 @@ body {
   height: 100%;
   display: inline-block;
   text-align: center; }
-  .logo__circle .circle__outside,
-  .logo__circle .circle__inside {
-    border: 3px solid #fff;
-    border-radius: 50%; }
-  .logo__circle .circle__outside {
-    width: 36px;
-    height: 36px; }
-  .logo__circle .circle__inside {
-    width: 16px;
-    height: 16px;
-    position: relative;
-    left: 10px;
-    bottom: 26px; }
+
+.circle__outside,
+.circle__inside {
+  border: 3px solid #fff;
+  border-radius: 50%; }
+
+.circle__outside {
+  width: 36px;
+  height: 36px; }
+
+.circle__inside {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  left: 10px;
+  bottom: 26px; }
 
 .logo__text {
   width: 40px;
@@ -96,6 +99,9 @@ body {
 .slogan__header,
 .slogan__text {
   color: #fff; }
+
+.slogan__header {
+  margin-bottom: 10px; }
 
 .slogan__text {
   font-size: 10px; }
@@ -173,14 +179,14 @@ body {
   background-color: #615f7d; }
 
 .box-grid__box-three {
-  background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/our_clients_box.png");
+  background-image: url("../images/our_clients_box.png");
   background-size: cover; }
 
 .box-grid__box-four {
   background-color: #bd8cbf; }
 
 .box-grid__box-five {
-  background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png");
+  background-image: url("../images/sign_up_box.png");
   background-size: cover;
   background-position: center; }
 
@@ -191,7 +197,7 @@ body {
   background-color: #82ca9c; }
 
 .box-grid__box-seven {
-  background-image: url("https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png");
+  background-image: url("../images/start_something_box.png");
   background-size: cover;
   background-position: center; }
 
@@ -205,58 +211,52 @@ body {
   font-size: 13px;
   transition: 0.3s; }
 
+.text-column {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+
+.text-column__header2 {
+  margin-bottom: 30px; }
+
+.text-column__header3 {
+  font-size: 12px;
+  margin-bottom: 10px; }
+
+.text-column__paragraph {
+  padding: 0 20px 10px 0;
+  color: #999;
+  font-size: 10px;
+  line-height: 15px; }
+
+.full-image {
+  max-width: 100vw;
+  height: 700px;
+  background-image: url("../images/Full_Image.png");
+  background-size: cover; }
+  .full-image:hover .text__link {
+    font-size: 13px;
+    transition: 0.3s; }
+
+.full-image__text {
+  position: relative;
+  top: 390px; }
+
+.text__header,
+.text__paragraph {
+  margin-bottom: 10px; }
+
+.text__paragraph {
+  padding-right: 550px;
+  color: #999;
+  font-size: 10px;
+  line-height: 15px; }
+
+.text__header,
+.text__paragraph,
+.text__link {
+  color: #fff; }
+
 /*
- * .box-grid
- * 	max-width: 1600px
- * 	margin-top: 40px
- *
- * 	.row
- * 		margin-left: 270px
- *
- * 		h2, p, a
- * 			color: #fff
- * 			padding: 0 25px
- * 		h2
- * 			font-weight: 100
- * 		p
- * 			margin-bottom: 40px
- *
- * 	div.col-l-3, div.col-l-6
- * 		height: 200px
- *
- * 	.box-pink
- * 		background-color: #f5989d
- * 	.box-purple
- * 		background-color: #615f7d
- * 	.box-small
- * 		background-image: url('https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/our_clients_box.png')
- * 		background-size: cover
- * 	.box-violet
- * 		background-color: #bd8cbf
- * 	.box-large
- * 		background-image: url('https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/sign_up_box.png')
- * 		background-size: cover
- * 		background-position: center
- * 		p
- * 			margin-bottom: 55px
- * 	.box-green
- * 		background-color: #82ca9c
- * 	.box-extra
- * 		background-image: url('https://raw.githubusercontent.com/lukaszsl/psd2html-nr1/master/images/start_something_box.png')
- * 		background-size: cover
- * 		background-position: center
- *
- * 	.box-pink, 
- * 	.box-purple, 
- * 	.box-small, 
- * 	.box-violet, 
- * 	.box-large, 
- * 	.box-green, 
- * 	.box-extra
- * 		&:hover
- * 			a
- * 				font-size: 13px
- * 				transition: .3s
  *
  * .text-column
  * 	height: 350px
