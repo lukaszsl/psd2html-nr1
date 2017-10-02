@@ -2,6 +2,7 @@ $main-font: 'Open Sans', sans-serif
 $buttons-font: 'Roboto', sans-serif
 $paragraph-color: #999
 $white: #fff
+$light-gray: #f6f7fa
 
 * 
 	box-sizing: border-box
@@ -278,28 +279,87 @@ body
 .text__link
 	color: $white
 
+// ***** section colour *****
+
+.colour
+	padding-top: 50px
+	padding-bottom: 100px
+	background-color: #99cc99
+
+.colour__header2
+	margin-bottom: 30px
+
+.colour__header3
+	margin-bottom: 10px
+	font-size: 12px
+
+.colour__paragraph
+	padding: 0 20px 10px 0
+	font-size: 10px
+	line-height: 15px
+
+.colour__header2,
+.colour__header3,
+.colour__paragraph
+	color: $white
+
+// ***** section buying *****
+
+.buying
+	background-color: $light-gray
+	padding-top: 50px
+	padding-bottom: 100px
+
+.buying__box
+	padding: 40px
+	margin-top: 60px
+
+.box__label
+	height: 25px
+	display: flex
+	justify-content: center
+	align-items: center
+	background-color: #e1e1e1
+	border-radius: 7px
+	font-family: $buttons-font
+	font-weight: 700
+	font-size: 10px
+	color: $light-gray
+
+.box__label--left
+	width: 75px
+
+.box__label--right
+	width: 120px
+
+.box__header
+	padding: 10px 0
+
+.box__paragraph
+	padding: 0 20px 20px 0
+	color: $paragraph-color
+	font-size: 10px
+	line-height: 15px
+
+.box__button
+	width: 140px
+	height: 45px
+	background-color: #99cc99
+	color: $white
+	font: bold 14px $buttons-font
+	border: none
+	border-radius: 5px
+
+.box__icons
+	margin-top: 10px
+	font-size: 22px
+
+.fa
+	margin-right: 5px
+	color: #ccc
+
 // don´t change above !!!
 /*
-
-
-	.text-column
-		height: 350px
-		margin-top: 85px
-
-		p
-			padding: 0 20px 10px 0
-
-	.full-image
-		max-height: 698px
-		img
-			width: 100vw 
-		div
-			position: relative
-			bottom: 390px
-			h1
-				color: #fff
-			p
-				padding-right: 550px
 
 	.colour
 		height: 400px
