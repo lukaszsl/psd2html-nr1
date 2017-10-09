@@ -81,7 +81,7 @@ body {
   margin: 0;
   transform: translateY(-30%); }
 
-.slogan {
+.hero__slogan {
   display: inline-block;
   position: relative;
   left: 10vw;
@@ -97,13 +97,13 @@ body {
 .slogan__text {
   font-size: 10px; }
 
-.iPhone {
+.hero__iPhone {
   height: 760px;
   position: absolute;
   left: 53%;
   top: 30%; }
 
-.ad {
+.hero__ad {
   transform: rotate(270deg);
   transform-origin: left top 0;
   float: left;
@@ -381,7 +381,7 @@ body {
   margin-top: 5px;
   padding-right: 100px; }
 
-@media(max-width: 767px) {
+@media(max-width: 767px) /* mobile */ {
   .col-s-1 {
     width: 8.33%; }
 
@@ -416,8 +416,53 @@ body {
     width: 91.66%; }
 
   .col-s-12 {
-    width: 100%; } }
-@media(max-width: 767px) //mobile;
+    width: 100%; }
+
+  .hero {
+    max-width: 767px;
+    width: 100vw;
+    height: 100vh;
+    background-size: auto auto; }
+
+  .hero__slogan {
+    margin: 0 auto; }
+
+  .hero__ad,
+  .hero__iPhone {
+    display: none; }
+
+  .welcome {
+    margin: 0;
+    padding: 5% 10%; }
+
+  .welcome__right {
+    margin-top: 0; }
+
+  .welcome__header {
+    text-align: center; }
+
+  .box-grid {
+    margin: 0;
+    text-align: center; }
+
+  .text-column {
+    margin: 0;
+    padding: 5% 10%; }
+
+  .text-column__header2,
+  .text-column__header3 {
+    text-align: center; }
+
+  .full-image {
+    background-position: center;
+    text-align: center; }
+
+  .text__paragraph {
+    padding: 0 10%; }
+
+  .colour {
+    text-align: center;
+    padding: 5% 10%; } }
 @media(min-width: 768px) and (max-width: 1199px) {
   .col-m-1 {
     width: 8.33%; }
