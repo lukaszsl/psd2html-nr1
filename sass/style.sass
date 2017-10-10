@@ -301,11 +301,6 @@ body
 
 .buying__box
 	padding: 40px
-	&:hover
-		background-color: $white
-		box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1)
-		.box__label
-			background-color: #c9c
 
 .buying__box, 
 .buying__box:hover,
@@ -481,6 +476,23 @@ body
 		text-align: center
 		padding: 5% 10%
 
+	.buying
+		padding: 5% 10%
+
+	.box__label
+		background-color: #c9c
+
+	.buying__box--active
+		background-color: $white
+		box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1)
+
+	.box__header,
+	.box__icons
+		text-align: center
+
+	.box__button
+		display: block
+		margin: 5% auto
 
 
 @media(min-width: 768px) and (max-width: 1199px)
@@ -534,3 +546,10 @@ body
 		width: 91.66%
 	.col-l-12 
 		width: 100%
+
+	.buying__box
+		&:hover
+			background-color: $white
+			box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1)
+			.box__label
+				background-color: #c9c
