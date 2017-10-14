@@ -475,7 +475,29 @@ body {
 
   .box__button {
     display: block;
-    margin: 5% auto; } }
+    margin: 5% auto; }
+
+  .footer__paragraph {
+    text-align: center; }
+
+  .footer__column-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10% 5% 10%; }
+    .footer__column-1 .footer-paragraph {
+      padding: 0 0 40px 0; }
+    .footer__column-1 [class*='col-l'] {
+      margin: 0 5%; }
+
+  .footer__column-2 {
+    width: 100%;
+    float: none; }
+    .footer__column-2 .footer__header,
+    .footer__column-2 .input__wraper {
+      text-align: center; }
+    .footer__column-2 .footer-paragraph {
+      padding: 0; } }
 @media(min-width: 768px) and (max-width: 1199px) {
   .col-m-1 {
     width: 8.33%; }
