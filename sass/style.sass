@@ -206,18 +206,6 @@ body
 	background-size: cover
 	background-position: center
 
-.box-grid__box-one, 
-.box-grid__box-two, 
-.box-grid__box-three, 
-.box-grid__box-four, 
-.box-grid__box-five, 
-.box-grid__box-six, 
-.box-grid__box-seven
-	&:hover
-		.box-grid__link
-			font-size: 13px
-			transition: .3s
-
 // ***** section text-column *****
 
 .text-column
@@ -244,10 +232,6 @@ body
 	height: 700px
 	background-image: url('../images/Full_Image.png')
 	background-size: cover
-	&:hover
-		.text__link
-			font-size: 13px
-			transition: .3s
 
 .full-image__text
 	position: relative
@@ -517,7 +501,9 @@ body
 		[class*='col-l']
 			margin: 0 5%
 
-	
+			.footer__header,
+			.footer__list
+				display: none
 
 	.footer__column-2
 		width: 100%
@@ -582,9 +568,27 @@ body
 	.col-l-12 
 		width: 100%
 
+	.box-grid__box-one, 
+	.box-grid__box-two, 
+	.box-grid__box-three, 
+	.box-grid__box-four, 
+	.box-grid__box-five, 
+	.box-grid__box-six, 
+	.box-grid__box-seven
+		&:hover
+			.box-grid__link
+				font-size: 13px
+				transition: .3s
+
 	.buying__box
 		&:hover
 			background-color: $white
 			box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1)
 			.box__label
 				background-color: #c9c
+
+	.full-image
+		&:hover
+			.text__link
+				font-size: 13px
+				transition: .3s
