@@ -220,7 +220,7 @@ body
 	margin-bottom: 10px
 
 .text-column__paragraph
-	padding: 0 20px 10px 0
+	padding: 0 0 10px 0
 	color: $paragraph-color
 	font-size: 10px
 	line-height: 15px
@@ -442,6 +442,9 @@ body
 	.welcome__right
 		margin-top: 0
 
+	.welcome__left
+		padding-right: 0
+
 	.welcome__header
 		text-align: center
 
@@ -516,7 +519,7 @@ body
 		.footer__paragraph--form
 			padding: 0
 
-@media(min-width: 768px) and (max-width: 1199px)
+@media(min-width: 768px) and (max-width: 1199px) /* tablet */
 	.col-m-1 
 		width: 8.33%
 	.col-m-2 
@@ -541,6 +544,115 @@ body
 		width: 91.66%
 	.col-m-12 
 		width: 100%
+
+	.hero
+		max-width: 1199px
+		width: 100vw
+		height: 100vh
+		background-size: auto auto
+
+	.hero__ad,
+	.hero__iPhone
+		display: none
+
+	.hero__slogan
+		left: 18vw
+
+	.welcome
+		margin: 0 auto
+		padding: 5% 10%
+
+	.welcome__right
+		margin-top: 0
+
+	.welcome__left
+		padding-right: 0
+
+	.welcome__header
+		text-align: center
+		margin-bottom: 3%
+
+	.box-grid
+		margin: 0 auto
+		text-align: center
+
+	.text-column
+		margin: 0 auto
+		padding: 5% 10%
+
+	.text-column__header2,
+	.text-column__header3
+		text-align: center
+
+	.text-column__header2
+		margin-bottom: 3%
+
+	.text-column__header3
+		margin-top: 2%
+		margin-bottom: 1%
+
+	.full-image__text
+		left: 18vw
+
+	.colour
+		text-align: center
+		padding: 5% 10%
+
+	.colour__header2
+		margin-bottom: 3%
+
+	.colour__header3
+		margin-top: 2%
+		margin-bottom: 1%
+
+	.buying__box
+		margin: 0 10%
+
+	.box__label
+		background-color: #c9c
+
+	.buying__box--active
+		background-color: $white
+		box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.1)
+
+	.box__header,
+	.box__icons
+		text-align: center
+
+	.box__button
+		display: block
+		margin: 10% auto
+
+		.footer__paragraph
+		text-align: center
+
+	.footer__column-1
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		padding: 0 10% 5% 10%
+
+		.footer-paragraph
+			padding: 0 0 40px 0
+
+		[class*='col-l']
+			margin: 0 5%
+
+			.footer__header,
+			.footer__list
+				display: none
+
+	.footer__column-2
+		width: 100%
+		float: none
+
+		.footer__header,
+		.input__wraper,
+		.footer__paragraph
+			text-align: center
+
+		.footer__paragraph--form
+			padding: 0
 
 @media(min-width: 1200px) 
 	.col-l-1 
