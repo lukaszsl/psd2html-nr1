@@ -3,6 +3,7 @@ $buttons-font: 'Roboto', sans-serif
 $paragraph-color: #999
 $white: #fff
 $light-gray: #f6f7fa
+$main-font-size: 16px
 
 * 
 	box-sizing: border-box
@@ -29,15 +30,18 @@ body
 	font-family: $main-font	
 
 	h1
-		font-size: 45px
+		font-size: 62px
 		font-weight: 300
 
 	h2
-		font-size: 26px
+		font-size: 36px
+
+	h3
+		font-size: 17px
 
 	a
 		text-decoration: none
-		font-size: 10px
+		font-size: $main-font-size
 		font-weight: bold
 		color: #fff
 
@@ -95,7 +99,7 @@ body
 .hero__slogan
 	display: inline-block
 	position: relative
-	left: 10vw
+	left: 5.5vw
 	top: 40vh
 
 .slogan__header, 
@@ -106,7 +110,7 @@ body
 	margin-bottom: 10px
 
 .slogan__text
-	font-size: 10px
+	font-size: $main-font-size
 
 .hero__iPhone
 	height: 760px
@@ -125,8 +129,8 @@ body
 	text-transform: uppercase
 .ad__text
 	color: #a4c4ce
-	font-size: 10px
-	padding: 6px 4px
+	font-size: $main-font-size
+	padding: 0px 6px
 
 // ***** section welcome *****
 
@@ -140,7 +144,7 @@ body
 	padding-right: 15px
 
 .welcome__right
-	margin-top: 101px
+	margin-top: 179px
 
 .welcome__left, 
 .welcome__right
@@ -148,8 +152,7 @@ body
 
 .welcome__paragraph
 	color: $paragraph-color
-	font-size: 10px
-	line-height: 15px
+	font-size: $main-font-size
 	padding: 5px 0
 
 // ***** section box-grid *****
@@ -160,7 +163,7 @@ body
 	margin-left: 270px
 
 [class*='box-grid__box-']
-	height: 200px
+	height: 270px
 
 .box-grid__header, 
 .box-grid__paragraph, 
@@ -172,9 +175,10 @@ body
 	font-weight: 100
 	margin-top: 40px
 	margin-bottom: 10px
+	font-size: 26px
 	
 .box-grid__paragraph
-	font-size: 10px
+	font-size: $main-font-size
 	margin-bottom: 40px
 
 .box-grid__box-one
@@ -196,7 +200,7 @@ body
 	background-position: center
 
 .box-five__paragraph
-	margin-bottom: 55px
+	margin-bottom: 84px
 
 .box-grid__box-six
 	background-color: #82ca9c
@@ -216,14 +220,12 @@ body
 	margin-bottom: 30px
 
 .text-column__header3
-	font-size: 12px
 	margin-bottom: 10px
 
 .text-column__paragraph
 	padding: 0 0 10px 0
 	color: $paragraph-color
-	font-size: 10px
-	line-height: 15px
+	font-size: $main-font-size
 
 // ***** section full-image *****
 
@@ -234,8 +236,7 @@ body
 	background-size: cover
 
 .full-image__text
-	position: relative
-	top: 390px	
+	padding-top: 20%
 
 .text__header, 
 .text__paragraph
@@ -244,8 +245,7 @@ body
 .text__paragraph
 	padding-right: 550px
 	color: $paragraph-color
-	font-size: 10px
-	line-height: 15px
+	font-size: $main-font-size
 
 .text__header, 
 .text__paragraph, 
@@ -264,12 +264,10 @@ body
 
 .colour__header3
 	margin-bottom: 10px
-	font-size: 12px
 
 .colour__paragraph
 	padding: 0 20px 10px 0
-	font-size: 10px
-	line-height: 15px
+	font-size: $main-font-size
 
 .colour__header2,
 .colour__header3,
@@ -300,14 +298,14 @@ body
 	border-radius: 7px
 	font-family: $buttons-font
 	font-weight: 700
-	font-size: 10px
+	font-size: $main-font-size
 	color: $light-gray
 
 .box__label--left
-	width: 75px
+	width: 80px
 
 .box__label--right
-	width: 120px
+	width: 140px
 
 .box__header
 	padding: 10px 0
@@ -315,22 +313,21 @@ body
 .box__paragraph
 	padding: 0 20px 20px 0
 	color: $paragraph-color
-	font-size: 10px
-	line-height: 15px
+	font-size: $main-font-size
 
 .box__button
-	width: 140px
-	height: 45px
+	width: 150px
+	height: 50px
 	background-color: #99cc99
 	color: $white
-	font: bold 14px $buttons-font
+	font: bold 18px $buttons-font
 	border: none
 	border-radius: 5px
 	cursor: pointer
 
 .box__icons
 	margin-top: 10px
-	font-size: 22px
+	font-size: 25px
 	.fa
 		margin-right: 5px
 		color: #ccc
@@ -348,17 +345,15 @@ body
 
 .footer__header
 	margin-bottom: 10px
-	font-size: 12px
 
 .footer__paragraph
 	padding: 0 20px 40px 0
-	font-size: 10px
-	line-height: 15px
+	font-size: $main-font-size
 
 .footer__list
 	list-style: none
 	font-family: $main-font
-	font-size: 10px
+	font-size: $main-font-size
 	line-height: 20px
 
 .form__input
@@ -385,12 +380,12 @@ body
 .footer__paragraph--form
 	color: #53647a
 	margin-top: 5px
-	padding-right: 100px
+	padding-right: 30px
 
 .created
 	position: relative
 	bottom: -70px
-	font-size: 0.7em
+	font-size: $main-font-size
 	text-align: center
 
 @media(max-width: 767px) /* mobile */
@@ -430,6 +425,9 @@ body
 		text-align: center
 		left: 0
 
+	.slogan__text
+		padding: 0 10%
+
 	.hero__ad,
 	.hero__iPhone
 		display: none
@@ -451,6 +449,9 @@ body
 		margin: 0
 		text-align: center
 
+	.box-five__paragraph
+		margin-bottom: 44px
+
 	.text-column
 		margin: 0
 		padding: 5% 10%
@@ -462,6 +463,9 @@ body
 	.full-image
 		background-position: center
 		text-align: center
+
+	.full-image__text
+		padding-top: 50%
 
 	.text__paragraph
 		padding: 0 10%
@@ -475,6 +479,11 @@ body
 
 	.box__label
 		background-color: #c9c
+		margin: 0 auto
+
+	.box__paragraph
+		padding: 20px 0
+		text-align: center
 
 	.buying__box--active
 		background-color: $white
@@ -490,6 +499,7 @@ body
 
 	.footer__paragraph
 		text-align: center
+		padding: 30px 0
 
 	.footer__column-1
 		display: flex
@@ -515,8 +525,14 @@ body
 		.input__wraper
 			text-align: center
 
+		.form__input
+			width: 80%
+
+		.form__button
+			width: 10%
+
 		.footer__paragraph--form
-			padding: 0
+			padding: 0 10%
 
 @media(min-width: 768px) and (max-width: 1199px) /* tablet */
 	.col-m-1 
@@ -592,7 +608,7 @@ body
 		margin-bottom: 1%
 
 	.full-image__text
-		padding: 0 18vw
+		padding: 350px 50px
 
 	.text__paragraph
 		padding-right: 0
@@ -613,6 +629,7 @@ body
 
 	.box__label
 		background-color: #c9c
+		margin: 10px auto
 
 	.buying__box--active
 		background-color: $white
@@ -622,9 +639,13 @@ body
 	.box__icons
 		text-align: center
 
+	.box__paragraph
+		padding: 20px 0
+		text-align: center
+
 	.box__button
 		display: block
-		margin: 10% auto
+		margin: 5% auto
 
 		.footer__paragraph
 		text-align: center
@@ -635,8 +656,9 @@ body
 		justify-content: center
 		padding: 0 10% 5% 10%
 
-		.footer-paragraph
-			padding: 0 0 40px 0
+		.footer__paragraph
+			text-align: center
+			padding: 30px 0
 
 		[class*='col-l']
 			margin: 0 5%
@@ -650,12 +672,17 @@ body
 		float: none
 
 		.footer__header,
-		.input__wraper,
-		.footer__paragraph
+		.input__wraper
 			text-align: center
 
+		.form__input
+			width: 80%
+
+		.form__button
+			width: 10%
+
 		.footer__paragraph--form
-			padding: 0
+			padding: 0 10%
 
 @media(min-width: 1200px) /* desktop */
 	.col-l-1 
@@ -692,7 +719,7 @@ body
 	.box-grid__box-seven
 		&:hover
 			.box-grid__link
-				font-size: 13px
+				font-size: 21px
 				transition: .3s
 
 	.buying__box
@@ -705,5 +732,5 @@ body
 	.full-image
 		&:hover
 			.text__link
-				font-size: 13px
+				font-size: 21px
 				transition: .3s
